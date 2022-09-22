@@ -1,16 +1,8 @@
-# tjvqa.github.io
+Titre du projet : SAE S1.0
 
-## Projet de SAÉ 05-06 :
-
-### Membres du groupe 21:
-
-Théo Baumont (référent)\
-Vieux-Melchior Victor\
-Axel Joué\
-Quentin Sauner\
-Bitar Johan
-
-### email du référent : 
-theo.baumont@edu.univ-fcomte.fr
-
+Etudiant 1 (référent du groupe) :  [Théo Baumont](mailto:tbaumon2@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 2 : [Vieux-Melchior Victor](mailto:vvieuxme@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 3 : [Axel Joué](mailto:ajoue@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 4 : [Quentin Sauner ](mailto:qsauner@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 5 : [Bitar Johan](mailto:jbitar@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
                           
