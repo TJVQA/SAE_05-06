@@ -4,7 +4,7 @@
 
 ### Membres du groupe:
 
-Théo Baumont (référent) 
+Théo Baumont (référent)\
 Vieux-Melchior Victor\
 Axel Joué\
 Quentin Sauner\
