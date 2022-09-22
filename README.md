@@ -2,7 +2,7 @@
 
 ## Projet de SAÉ 05-06 :
 
-### Membres du groupe:
+### Membres du groupe 21:
 
 Théo Baumont (référent)\
 Vieux-Melchior Victor\
