@@ -1,0 +1,288 @@
+/*navbar hidden when hovering over it*/
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 10vh;
+    background: rgba(0, 0, 0, 0.71);
+    opacity: 0;
+    transition: width 0.5s height 0.5s opacity 0.5s;
+    z-index: 1;
+
+}
+#navbar:hover {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    animation: appear-outside-left 0.5s forwards;
+}
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#navbar ul li {
+    display: inline-block;
+    margin: 0 10px;
+} 
+#navbar ul li a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 1vh;
+    color: #fff;
+    text-decoration: none;
+    font-size: calc(1920px/1920*5px + 1vw);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#navbar ul li a:hover {
+    color: navy;
+}
+#navbar ul li a.active {
+    color: navy;
+}
+#navbar ul li a.active:hover {
+    color: #fff;
+}
+#navbar ul li a.active:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: navy;
+    margin-top: 5px;
+}
+#navbar ul li a:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: transparent;
+    margin-top: 5px;
+    transition: background 0.5s;
+}
+#navbar ul li a:hover:after {
+    background: navy;
+
+}
+#navbar ul li img {
+    width: auto;
+    height: calc(10vh - 8px);
+    min-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+
+/*titles*/
+
+/*h1 big title in the middle*/
+h1 {
+    font-size: 8vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: navy;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*h2 title in the middle*/
+h2 {
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: navy;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ }
+/*h3 bold text in the middle*/
+h3 {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: navy;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/*hr*/
+hr {
+    border: 1px solid black;
+    width: 100%;
+}
+
+/*img*/
+.logo {
+    width: calc(1vw - 8px);
+    height: calc(1vh - 8px);
+    min-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    opacity: 1;
+    z-index: 0;
+}
+.logo {
+    position: sticky;
+ 
+}
+
+
+/*text and image positions*/
+
+/*text on the left*/
+.left-text {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+    font-size: 2vw;
+    justify-content: baseline;
+    font-family:Georgia, 'Roboto', sans-serif;
+    font-weight: bold;
+    color: navy;
+    margin: 0;
+    padding: 0;
+}
+/*text on the righ*/
+.right-text {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    text-align: right;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: navy;
+    margin: 0;
+    padding: 0;
+}
+/*image on the left*/
+.left-image {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+/*image on the right*/
+.right-image {
+    float: right;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+/*foot of the page*/
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*footer text*/
+#footer p {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
+    text-align: start;
+    line-height: 1.5;
+    line-break: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/*class mail*/
+.mail {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
+    text-align: start;
+    line-height: 1.5;
+    line-break: auto;
+    margin: 0;
+    padding: 0;
+}
+/*class mail hover*/
+.mail:hover {
+    color: navy;
+}
+
+
+
+/*background color of the page*/
+.background {
+    background: white;
+}
+
+
+/*animations*/
+.animation-appear-fast{
+    animation: appear 1s;
+}
+.animation-appear-middle{
+    animation: appear 2s;
+}
+.animation-appear-slow{
+    animation: appear 4s;
+}
+.animation-appear-outside-left{
+    animation: appear-outside-left 2s;
+}
+.animation-appear-outside-right{
+    animation: appear-outside-right 2s;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*the object appear from the left*/
+@keyframes appear-outside-left {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes appear-outside-right {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
