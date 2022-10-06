@@ -1,4 +1,3 @@
-/*navbar hidden when hovering over it*/
 #navbar {
     position: sticky;
     top: 0;
@@ -7,16 +6,21 @@
     height: auto;
     min-height: 10vh;
     background: rgba(0, 0, 0, 0.71);
+    background-size: 110%;
     opacity: 0;
     transition: width 0.5s height 0.5s opacity 0.5s;
     z-index: 1;
+    /*no white space around it*/
+    padding: -20px;
+    margin: -20px;
+
 
 }
 #navbar:hover {
     opacity: 1;
     width: 100%;
     height: auto;
-    animation: appear-outside-left 0.5s forwards;
+    animation: appear-outside-top-left 0.5s forwards;
 }
 #navbar ul {
     list-style: none;
@@ -78,6 +82,16 @@
     top: 4px;
     left: 4px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /*titles*/
@@ -188,6 +202,12 @@ hr {
     padding: 0;
 }
 
+
+
+
+
+
+
 /*foot of the page*/
 #footer {
     left: 0;
@@ -286,3 +306,24 @@ hr {
     }
 }
 
+/*animation that make something appear from top left to bottom right*/
+@keyframes appear-outside-top-left {
+    from {
+        opacity: 0;
+        transform: translate(-100%, -100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+@keyframes appear-outside-bottom-right {
+    from {
+        opacity: 0;
+        transform: translate(100%, 100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
