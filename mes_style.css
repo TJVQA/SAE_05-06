@@ -46,10 +46,11 @@
 
 }    
 #navbar ul li a:hover {
-    color: navy;
+    color: #93E1F0;
 }
 #navbar ul li a.active {
-    color: navy;
+    color: #93E1F0;
+    
 }
 #navbar ul li a.active:hover {
     color: #fff;
@@ -59,7 +60,7 @@
     display: block;
     width: 100%;
     height: 2px;
-    background: navy;
+    background: #93E1F0;
     margin-top: 5px;
 }
 #navbar ul li a:after {
@@ -72,7 +73,7 @@
     transition: background 0.5s;
 }
 #navbar ul li a:hover:after {
-    background: navy;
+    background: #93E1F0;
 
 }
 #navbar ul li img {
@@ -86,8 +87,57 @@
     left: 4px;
 }
 
+#navbar ul li a.current-page {
+    color: #93E1F0;
+}
 
 
+#navbar ul li a.current-page:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #93E1F0;
+    margin-top: 5px;
+}
+
+/*en savoir plus*/
+.en-savoir-plus {
+    color: #93E1F0;
+    font-size: calc(1920px/1920*3px + 1vw);
+    font-weight: normal;
+    text-transform: none;
+    position: absolute;
+}
+.en-savoir-plus:hover {
+    color: #0078B8;
+}
+/*button with a oval border when clicked change colorstep by step*/
+.button {
+    background-color: #93E1F0;
+    border: none;
+    color: white;
+    padding: 1vh 3vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 2vw 1VH;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #93E1F0;
+}
+.button:hover {
+    background-color: #0078B8;
+    color: white;
+    border: 2px solid #0078B8;
+}
+.button:active {
+    background-color: #0078B8;
+    color: white;
+    border: 2px solid #0078B8;
+}
 
 
 
@@ -104,7 +154,7 @@ h1 {
     font-size: 8vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    color: navy;
+    color: #0078B8;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -114,7 +164,7 @@ h2 {
     font-size: 4vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    color: navy;
+    color: #0078B8;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -124,7 +174,7 @@ h3 {
     font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    color: navy;
+    color: #0078B8;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -171,7 +221,7 @@ hr {
     justify-content: baseline;
     font-family:Georgia, 'Roboto', sans-serif;
     font-weight: bold;
-    color: navy;
+    color: #0078B8;
     margin: 0;
     padding: 0;
 }
@@ -184,7 +234,7 @@ hr {
     font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    color: navy;
+    color: #0078B8;
     margin: 0;
     padding: 0;
 }
@@ -253,7 +303,7 @@ hr {
 }
 /*class mail hover*/
 .mail:hover {
-    color: navy;
+    color: #0078B8;
 }
 
 
@@ -264,7 +314,7 @@ hr {
     font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    color: navy;
+    color: #0078B8;
     background-color: black;
     text-align: start;
     line-height: 1.5;
