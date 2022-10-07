@@ -6,7 +6,7 @@ Etudiant 3 : [Axel Joué](mailto:ajoue@edu.univ-fcomte.fr?subject=SAE_1_05_06) \
 Etudiant 4 : [Quentin Sauner ](mailto:qsauner@edu.univ-fcomte.fr?subject=SAE_1_05_06) \
 Etudiant 5 : [Bitar Johann](mailto:jbitar@edu.univ-fcomte.fr?subject=SAE_1_05_06)
                           
-![écran de zoning menu](doc/Zoning_Menu_V2.png)
-![écran de zoning page](doc/Zoning_Description_V2.png)
+![écran de zoning menu](doc/zoninga.png)
+![écran de zoning page](doc/zoningb.png)
 ![écran prototype](doc/prototype_1.png)
 ![écran prototype](doc/prototype_2.png)
