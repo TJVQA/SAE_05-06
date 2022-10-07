@@ -7,8 +7,8 @@
     min-height: 10vh;
     background: rgba(0, 0, 0, 0.71);
     background-size: 110%;
-    opacity: 0;
-    transition: width 0.5s height 0.5s opacity 0.5s;
+    opacity: 1;
+    /*transition: width 0.5s height 0.5s opacity 0.5s;*/
     z-index: 1;
     /*no white space around it*/
     padding: -20px;
@@ -16,12 +16,14 @@
 
 
 }
-#navbar:hover {
+
+/*animation, don't know if i will keep it, i did not sleep much for the past week :'( please help me i'm working way too much
+/*#navbar:hover {
     opacity: 1;
     width: 100%;
     height: auto;
     animation: appear-outside-top-left 0.5s forwards;
-}
+}*/
 #navbar ul {
     list-style: none;
     margin: 0;
@@ -41,7 +43,8 @@
     font-size: calc(1920px/1920*5px + 1vw);
     font-weight: bold;
     text-transform: uppercase;
-}
+
+}    
 #navbar ul li a:hover {
     color: navy;
 }
@@ -127,6 +130,10 @@ h3 {
     padding: 0;
     
 }
+
+/*text*/
+
+
 
 
 /*hr*/
@@ -251,10 +258,24 @@ hr {
 
 
 
-/*background color of the page*/
-.background {
-    background: white;
+/*background color of a part of the page*/
+
+/*#background p {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: navy;
+    background-color: black;
+    text-align: start;
+    line-height: 1.5;
+    line-break: auto;
+    margin: 0;
+    padding: 0;
 }
+
+#background p img{
+    background-color: black;
+}*/
 
 
 /*animations*/
