@@ -1,4 +1,91 @@
 <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Page.css">
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <title>Ubisoft by Johann</title>
+</head>
+<body>
+
+    <nav>
+      <ul class="nav-list">
+        <a href="index.html"><img a id="logo" src="images/logo.png" alt="logo"></a>
+        <li class="nav-item"><a href "#">Histoire d'Ubisoft</a></li>
+        <li class="nav-item"><a href "#">Les Jeux d'Ubisoft</a></li>
+        <li class="nav-item"><a href "#">Les Studios d'Ubisoft</a></li>
+        <li class="nav-item"><a href "#">Dirigeant et Economie d'Ubisoft</a></li>
+      </ul>
+    </nav>
+
+<div class="mySlides fade">
+  <img src="images/1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/4.jpg" style="width:100%">
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // le temps
+}
+</script>
+    <article>
+    <center><h1>Cette page a été faite par :</h1></center>
+    <ol>
+        <center><li>Johann</li></center>
+        <br>
+        <center><li><a class="button" href="Les Jeux d'Ubisoft.html"> Page d'acceuil</a>crée par Victor</li></center>
+        <li>Have I mentioned the beard?</li>
+    </ol>
+    <footer>
+        <p>&emsp;&emsp;©2022 TJVQA. All rights reserved. TJVQA is a brand protected and registered in French. Registration number: 34624607.<br>
+          ©2022 TJVQA. Tous droits réservés. TJVQA est une marque protégée et enregistrée en France. N° d'immatriculation: 34624607. </p>
+    </footer>
+</article>
+
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
         <link rel="icon" type="image/x-icon" href="logo_V1-removebg-preview-export.png">
@@ -42,4 +129,4 @@
 
     </body>
 
-</html>
+</html> -->
