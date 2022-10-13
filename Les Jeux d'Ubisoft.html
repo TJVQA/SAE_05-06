@@ -1,82 +1,45 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Page.css">
-    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
-    <title>Ubisoft by Johann</title>
-</head>
-<body>
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="icon" type="image/x-icon" href="logo_V1-removebg-preview-export.png">
+        <link rel="stylesheet" href="mes_style.css" type="text/css" media="screen">
+        <!--name of the website-->
+        <title >Les Jeux d'Ubisoft</title>
 
-    <nav>
-      <ul class="nav-list">
-        <a href="index.html"><img a id="logo" src="images/logo.png" alt="logo"></a>
-        <li class="nav-item"><a href "#">Histoire d'Ubisoft</a></li>
-        <li class="nav-item"><a href "#">Les Jeux d'Ubisoft</a></li>
-        <li class="nav-item"><a href "#">Les Studios d'Ubisoft</a></li>
-        <li class="nav-item"><a href "#">Dirigeant et Economie d'Ubisoft</a></li>
-      </ul>
-    </nav>
+    </head>
 
-<div class="mySlides fade">
-  <img src="images/1.jpg" style="width:100%">
-</div>
+    <body>
+        <!--navbar (copy that in the other pages, i mean this div with the navbar id)-->
+        <div id="navbar">
+            <ul>
+                <li>
+                    <a href="index.html"><img id="logo" src="logo_V1-removebg-preview-export.png" alt="logo"></a>
+                    <a href="Les Jeux d'Ubisoft.html">Les Jeux d'Ubisoft</a>
+                    <a href="L'Histoire d'Ubisoft.html">L'Histoire d'Ubisoft</a>
+                    <a href="Les studios d'Ubisoft.html">Les studios d'Ubisoft</a>
+                    <a class="current-page" href="Les Dirigeant et économie d'Ubisoft.html">Les Dirigeant et économie d'Ubisoft</a>
+                    
+                </li>
+            </ul>
+        </div>
+        <!--main content-->
+        <!--you can change that as much as you want-->
+       
 
-<div class="mySlides fade">
-  <img src="images/2.jpg" style="width:100%">
-</div>
 
-<div class="mySlides fade">
-  <img src="images/3.jpg" style="width:100%">
-</div>
 
-<div class="mySlides fade">
-  <img src="images/4.jpg" style="width:100%">
-</div>
-<br>
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
+        <!--footer-->
+        <!--copy that in your page-->
+        <div id="footer">
+            <p>TJVQA</p>
+            <!--credits-->
+            <!--put your email adress after mailto: and change the name-->
+            <p>page et menu créé par : <a class="mail" href="mailto:@edu.univ-fcomte.fr"></a></p>
+            
+        </div>
 
-<script>
-let slideIndex = 0;
-showSlides();
+ 
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // le temps
-}
-</script>
-    <article>
-    <center><h1>Cette page a été faite par :</h1></center>
-    <ol>
-        <center><li>Johann</li></center>
-        <br>
-        <center><li><a class="button" href="Les Jeux d'Ubisoft.html"> Page d'acceuil</a>crée par Victor</li></center>
-        <li>Have I mentioned the beard?</li>
-    </ol>
-    <footer>
-        <p>&emsp;&emsp;©2022 TJVQA. All rights reserved. TJVQA is a brand protected and registered in French. Registration number: 34624607.<br>
-          ©2022 TJVQA. Tous droits réservés. TJVQA est une marque protégée et enregistrée en France. N° d'immatriculation: 34624607. </p>
-    </footer>
-</article>
+    </body>
 
-</body>
 </html>
