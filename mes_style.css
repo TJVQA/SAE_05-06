@@ -454,3 +454,28 @@ footer2 {
     color: #fff;
 }
 
+.button2 {
+    background-color: #6A6A6A;
+    border: none;
+    color: white;
+    padding: 1vh 3vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 2vw 1VH;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #6A6A6A;
+}
+.button2:hover {
+    background-color: #606060;
+    color: white;
+    border: 2px solid #606060;
+}
+.button2:active {
+    background-color: #606060;
+    color: white;
+    border: 2px solid #606060;
+}
