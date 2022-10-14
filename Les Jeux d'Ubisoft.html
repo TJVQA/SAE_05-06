@@ -21,64 +21,75 @@
                     </ul>
                 </div>
 
-                <div class="mySlides fade">
+                <div class="changeDeImg fade">
                         <img src="static/1.jpg" style="width:100%">
                 </div>
 
-                <div class="mySlides fade">
+                <div class="changeDeImg fade">
                         <img src="static/2.jpg" style="width:100%">
                 </div>
 
-                <div class="mySlides fade">
+                <div class="changeDeImg fade">
                         <img src="static/3.jpg" style="width:100%">
                 </div>
 
-                <div class="mySlides fade">
+                <div class="changeDeImg fade">
                         <img src="static/4.jpg" style="width:100%">
                 </div>
+              <h4>
                 <br>
                 <div style="text-align:center">
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
+                        <span class="rond"></span>
+                        <span class="rond"></span>
+                        <span class="rond"></span>
+                        <span class="rond"></span>
                 </div>
+              </h4>
 
-<script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // le temps
-}
-</script>       
-                
+<!-- Bas de page fait par Johann: -->
 <article>
         <footer1>
-                <center><p>Cette page a été faite par :</p>
-                <h4>Johann</h4>
-                <a class="button2" href="index.html">Page d'acceuil</a><a class="button2" href="Les Jeux d'Ubisoft.html">Les Jeux d'Ubisoft</a><a class="button2" href="L'Histoire d'Ubisoft.html">L'Histoire d'Ubisoft</a><a class="button2" href="Les studios d'Ubisoft.html"> Les Studios d'Ubisoft</a><a class="button2" href="Les Dirigeant et économie d'Ubisoft.html">Les Dirigeant et économie d'Ubisoft</a></center>
+                <center>
+                  <a class="button2" href="index.html">Page d'accueil</a>
+                  <a class="button2" href="Les Jeux d'Ubisoft.html">Les Jeux d'Ubisoft</a>
+                  <a class="button2" href="L'Histoire d'Ubisoft.html">L'Histoire d'Ubisoft</a>
+                  <a class="button2" href="Les studios d'Ubisoft.html"> Les Studios d'Ubisoft</a>
+                  <a class="button2" href="Les Dirigeant et économie d'Ubisoft.html">Les Dirigeant et économie d'Ubisoft</a>
+                </center>
         </footer1>
         <footer2>
-                <p>&emsp;&emsp;©2022 TJVQA. All rights reserved. TJVQA is a brand protected and registered in French. Registration number: 34624607.<br>
-                ©2022 TJVQA. Tous droits réservés. TJVQA est une marque protégée et enregistrée en France. N° d'immatriculation: 34624607. </p>
+          <div style="text-align:center">
+                  <span>Cette page ainsi que le bas de page été crée par <strong>Johann Bitar</strong> [S1-D1]</span>
+                  <br>
+                  <br>
+                  <span>©TJVQA. All rights reserved. TJVQA is a brand protected and registered in French. Registration number: 34624607.</span>
+                  <br>
+                  <span>©2022 TJVQA. Tous droits réservés. TJVQA est une marque protégée et enregistrée en France. N° d'immatriculation: 34624607.</span>
+          </div>
         </footer2>
 </article>
 
- 
+<script>
+let indexImage = 0;
+changementImg();
+
+function changementImg() {
+  let img;
+  let changement = document.getElementsByClassName("changeDeImg");
+  let ronds = document.getElementsByClassName("rond");
+  for (img = 0; img < changement.length; img++) {
+    changement[img].style.display = "none";
+  }
+  indexImage++;
+  if (indexImage > changement.length) {indexImage = 1}
+  for (img = 0; img < ronds.length; img++) {
+    ronds[img].className = ronds[img].className.replace(" active", "");
+  }
+  changement[indexImage-1].style.display = "block";
+  ronds[indexImage-1].className += " active";
+  setTimeout(changementImg, 5000); // le temps
+}
+</script>
 
     </body>
 
