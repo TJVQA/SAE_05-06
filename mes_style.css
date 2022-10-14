@@ -5,7 +5,7 @@
     width: 100%;
     height: auto;
     min-height: 10vh;
-    background: rgba(0, 0, 0, 0.71);
+    background: black;
     background-size: 110%;
     opacity: 1;
     /*transition: width 0.5s height 0.5s opacity 0.5s;*/
