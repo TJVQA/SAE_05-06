@@ -69,27 +69,27 @@
         </footer2>
 </article>
 
-<script>
-let indexImage = 0;
-changementImg();
+        <script>
+        let indexImage = 0;
+        changementImg();
 
-function changementImg() {
-  let img;
-  let changement = document.getElementsByClassName("changeDeImg");
-  let ronds = document.getElementsByClassName("rond");
-  for (img = 0; img < changement.length; img++) {
-    changement[img].style.display = "none";
-  }
-  indexImage++;
-  if (indexImage > changement.length) {indexImage = 1}
-  for (img = 0; img < ronds.length; img++) {
-    ronds[img].className = ronds[img].className.replace(" active", "");
-  }
-  changement[indexImage-1].style.display = "block";
-  ronds[indexImage-1].className += " active";
-  setTimeout(changementImg, 5000); // le temps
-}
-</script>
+        function changementImg() {
+          let img;
+          let changement = document.getElementsByClassName("changeDeImg");
+          let ronds = document.getElementsByClassName("rond");
+          for (img = 0; img < changement.length; img++) {
+            changement[img].style.display = "none";
+          }
+          indexImage++;
+          if (indexImage > changement.length) {indexImage = 1}
+          for (img = 0; img < ronds.length; img++) {
+            ronds[img].className = ronds[img].className.replace(" active", "");
+          }
+          changement[indexImage-1].style.display = "block";
+          ronds[indexImage-1].className += " active";
+          setTimeout(changementImg, 5000); // le temps
+        }
+        </script>
 
     </body>
 
