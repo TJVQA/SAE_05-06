@@ -11,13 +11,13 @@
     /*transition: width 0.5s height 0.5s opacity 0.5s;*/
     z-index: 1;
     /*no white space around it*/
-    padding: -20px;
-    margin: -20px;
+    padding: 0px;
+    margin: 0px;
 
 
 }
 
-/*animation, don't know if i will keep it, i did not sleep much for the past week :'( please help me i'm working way too much
+/*animation, don't know if i will keep it, i did not sleep much for the past week :'( please help me i'm working way too much (victor)
 /*#navbar:hover {
     opacity: 1;
     width: 100%;
@@ -85,7 +85,7 @@
 /*en savoir plus*/
 .en-savoir-plus {
     color: #93E1F0;
-    font-size: calc(1920px/1920*3px + 1vw);
+    font-size: calc(1+1920px/1920*3px + 1vw);
     font-weight: normal;
     text-transform: none;
     position: absolute;
@@ -199,8 +199,8 @@ hr {
     padding: 10px;
     text-align: left;
     font-size: 2vw;
-    justify-content: baseline;
-    font-family:Georgia, 'Roboto', sans-serif;
+    justify-content: start;
+    font-family:'Roboto', sans-serif;
     font-weight: 2;
     color: #0078B8;
     margin: 0;
