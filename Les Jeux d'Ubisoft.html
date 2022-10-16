@@ -89,6 +89,7 @@
 
         <script>
         let indexImage = 0;
+        let indexImage1 = 0;
         changementImg();
         changementImg2();
 
@@ -109,21 +110,21 @@
           setTimeout(changementImg, 5000); // le temps
         }
                 
-        function changementImg2() {
-          let img;
+       function changementImg2() {
+          let img1;
           let changement = document.getElementsByClassName("changeDeImg");
-          let ronds = document.getElementsByClassName("rond");
-          for (img = 0; img < changement.length; img++) {
-            changement[img].style.display = "none";
+          let rond1 = document.getElementsByClassName("rond");
+          for (img1 = 0; img1 < changement.length; img1++) {
+            changement[img1].style.display = "none";
           }
-          indexImage++;
-          if (indexImage > changement.length) {indexImage = 1}
-          for (img = 0; img < ronds.length; img++) {
-            ronds[img].className = ronds[img].className.replace(" active", "");
+          indexImage1++;
+          if (indexImage1 > changement.length) {indexImage1 = 1}
+          for (img1 = 0; img1 < rond1.length; img1++) {
+            rond1[img1].className = rond1[img1].className.replace(" active", "");
           }
-          changement[indexImage-1].style.display = "block";
-          ronds[indexImage-1].className += " active";
-          setTimeout(changementImg, 5000); // le temps
+          changement[indexImage1-1].style.display = "block";
+          rond1[indexImage1-1].className += " active";
+          setTimeout(changementImg2, 5000); // le temps
         }
         </script>
 
