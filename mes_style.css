@@ -417,7 +417,7 @@ img {vertical-align: middle;}
   text-decoration: none;
 }
 
-footer1 {
+footer .footer1 {
     display: flex;
     justify-content: center;
     padding: 5px;
@@ -425,7 +425,7 @@ footer1 {
     color: #fff;
 }
 
-footer2 {
+footer .footer2 {
     display: flex;
     justify-content: center;
     padding: 5px;
