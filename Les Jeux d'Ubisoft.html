@@ -42,7 +42,7 @@
                 </div>
               <br>
               </h5>
-                      
+
                 <div class="changeDeImg1 fade">
                         <img src="static/TheCrew/1.jpg" style="width:100%">
                 </div>
@@ -64,6 +64,72 @@
                 </div>
               <br>
               </h5>
+
+                <div class="changeDeImg2 fade">
+                        <img src="static/1.jpg" style="width:100%">
+                </div>
+
+                <div class="changeDeImg2 fade">
+                        <img src="static/2.jpg" style="width:100%">
+                </div>
+
+                <div class="changeDeImg2 fade">
+                        <img src="static/3.jpg" style="width:100%">
+                </div>
+
+              <h5>
+              <br>
+                <div style="text-align:center">
+                        <span class="rond2"></span>
+                        <span class="rond2"></span>
+                        <span class="rond2"></span>
+                </div>
+              <br>
+            </h5>
+
+              <div class="changeDeImg3 fade">
+                      <img src="static/1.jpg" style="width:100%">
+              </div>
+
+              <div class="changeDeImg3 fade">
+                      <img src="static/2.jpg" style="width:100%">
+              </div>
+
+              <div class="changeDeImg3 fade">
+                      <img src="static/3.jpg" style="width:100%">
+              </div>
+
+            <h5>
+            <br>
+              <div style="text-align:center">
+                      <span class="rond3"></span>
+                      <span class="rond3"></span>
+                      <span class="rond3"></span>
+              </div>
+            <br>
+          </h5>
+
+          <div class="changeDeImg4 fade">
+                  <img src="static/1.jpg" style="width:100%">
+          </div>
+
+          <div class="changeDeImg4 fade">
+                  <img src="static/2.jpg" style="width:100%">
+          </div>
+
+          <div class="changeDeImg4 fade">
+                  <img src="static/3.jpg" style="width:100%">
+          </div>
+
+        <h5>
+        <br>
+          <div style="text-align:center">
+                  <span class="rond4"></span>
+                  <span class="rond4"></span>
+                  <span class="rond4"></span>
+          </div>
+        <br>
+      </h5>
 
 <!-- Bas de page fait par Johann: -->
         <footer>
@@ -91,8 +157,15 @@
         <script>
         let indexImage = 0;
         let indexImage1 = 0;
+        let indexImage2 = 0;
+        let indexImage3 = 0;
+        let indexImage4 = 0;
+
         changementImg();
+        changementImg1();
         changementImg2();
+        changementImg3();
+        changementImg4();
 
         function changementImg() {
           let img;
@@ -110,8 +183,8 @@
           ronds[indexImage-1].className += " active";
           setTimeout(changementImg, 5000); // le temps
         }
-                
-       function changementImg2() {
+
+       function changementImg1() {
           let img1;
           let changement = document.getElementsByClassName("changeDeImg1");
           let rond1 = document.getElementsByClassName("rond1");
@@ -125,8 +198,59 @@
           }
           changement[indexImage1-1].style.display = "block";
           rond1[indexImage1-1].className += " active";
-          setTimeout(changementImg2, 5000); // le temps
+          setTimeout(changementImg1, 5000); // le temps
         }
+
+        function changementImg2() {
+           let img2;
+           let changement = document.getElementsByClassName("changeDeImg2");
+           let rond2 = document.getElementsByClassName("rond2");
+           for (img2 = 0; img2 < changement.length; img2++) {
+             changement[img2].style.display = "none";
+           }
+           indexImage2++;
+           if (indexImage2 > changement.length) {indexImage2 = 1}
+           for (img2 = 0; img2 < rond2.length; img2++) {
+             rond2[img2].className = rond2[img2].className.replace(" active", "");
+           }
+           changement[indexImage2-1].style.display = "block";
+           rond2[indexImage2-1].className += " active";
+           setTimeout(changementImg2, 5000); // le temps
+         }
+
+         function changementImg3() {
+            let img3;
+            let changement = document.getElementsByClassName("changeDeImg3");
+            let rond3 = document.getElementsByClassName("rond3");
+            for (img3 = 0; img3 < changement.length; img3++) {
+              changement[img3].style.display = "none";
+            }
+            indexImage3++;
+            if (indexImage3 > changement.length) {indexImage3 = 1}
+            for (img3 = 0; img3 < rond3.length; img3++) {
+              rond3[img3].className = rond3[img3].className.replace(" active", "");
+            }
+            changement[indexImage3-1].style.display = "block";
+            rond3[indexImage3-1].className += " active";
+            setTimeout(changementImg3, 5000); // le temps
+          }
+
+          function changementImg4() {
+             let img4;
+             let changement = document.getElementsByClassName("changeDeImg4");
+             let rond4 = document.getElementsByClassName("rond4");
+             for (img4 = 0; img4 < changement.length; img4++) {
+               changement[img4].style.display = "none";
+             }
+             indexImage4++;
+             if (indexImage4 > changement.length) {indexImage4 = 1}
+             for (img4 = 0; img4 < rond4.length; img4++) {
+               rond4[img4].className = rond4[img4].className.replace(" active", "");
+             }
+             changement[indexImage4-1].style.display = "block";
+             rond4[indexImage4-1].className += " active";
+             setTimeout(changementImg4, 5000); // le temps
+           }
         </script>
 
     </body>
