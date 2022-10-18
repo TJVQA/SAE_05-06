@@ -533,3 +533,32 @@ footer .footer2 {
 }
 
 /* Fin du Css de Johann */
+/* CSS Quentin*/
+#map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.bar {
+    border-radius: 25px;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 10vh;
+    background: black;
+    background-size: 100%;
+    opacity: 1;
+}
+
+.ville {
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* fin CSS Quentin*/
