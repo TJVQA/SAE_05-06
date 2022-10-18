@@ -169,7 +169,7 @@ h6{
     font-family: 'Roboto';
     font-weight: bolder;
     color: #0078B8;
-    text-align: center;
+    /*text-align: center;*/
     margin: 0;
     padding: 0;
 }
