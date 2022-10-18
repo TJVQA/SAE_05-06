@@ -539,6 +539,7 @@ footer .footer2 {
     margin-left: auto;
     margin-right: auto;
     width: 85%;
+    position: relative;
 }
 
 .bar {
@@ -552,7 +553,7 @@ footer .footer2 {
     opacity: 1;
 }
 
-.ville {
+.continent {
     font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
