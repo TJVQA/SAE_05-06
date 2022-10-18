@@ -164,6 +164,16 @@ h3 {
     
 }
 
+h6{
+    font-size: 2vw;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    color: #0078B8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 /*text*/
 
 
