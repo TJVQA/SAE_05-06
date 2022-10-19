@@ -576,7 +576,7 @@ footer .footer2 {
     margin-bottom: 100px;
 }
 
-.ligne {
+.ligne_Theo {
     height: 1000px;
     width: 8px;
     margin: 0 auto;
@@ -603,7 +603,7 @@ footer .footer2 {
 .r3{top: 692px;}
 .r4{top: 1000px;}
 
-.box {
+.box_Theo {
     color: #333;
     width: 400px;
     min-height: 200px;
@@ -634,22 +634,12 @@ footer .footer2 {
     left: calc(50% + 270px);
 }
 
-.box p {
+/* .box p {
     line-height: 20px;
     font-size: 18px;
     margin: 10px 0 20px 0;
-}
-.btn_theo {
-    display: block;
-    background: midnightblue;
-    padding: 10px;
-    width: 120px;
-    text-align: center;
-    color: #f1f1f1;
-    text-decoration: none;
-    border-radius: 3px;
-    margin-top: 10px;
-}
+} */
+
 
 /* Fin CSS Théo */
 
