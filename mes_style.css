@@ -594,6 +594,12 @@ footer .footer2 {
 
 /* Début CSS Théo */
 
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .box-timeline {
     width: 100%;
     height: 1500px;
