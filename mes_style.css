@@ -275,6 +275,7 @@ hr {
     padding: 20px;
     text-align: left;
     margin: 0;
+    color: white;
     border-radius: 10px;
 }
 /*image on the right*/
@@ -294,6 +295,7 @@ hr {
     padding: 20px;
     text-align: right;
     margin: 0;
+    color: white;
     border-radius: 10px;
 }
 /*hr hidden*/
