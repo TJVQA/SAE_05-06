@@ -165,11 +165,11 @@ h3 {
 }
 
 h6{
-    font-size: 2vw;
-    font-family: 'Roboto';
-    font-weight: bolder;
-    color: #0078B8;
-    /*text-align: center;*/
+    font-size: 8vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: whitesmoke;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
