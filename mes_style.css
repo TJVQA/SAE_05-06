@@ -255,6 +255,7 @@ hr {
     color: #0078B8;
     background-color: gray;
     margin: 0;
+    border-radius: 10px;
 }
 /*image on the left*/
 .left-image {
