@@ -271,7 +271,6 @@ hr {
     padding: 30px;
     text-align: left;
     margin: 0;
-    padding: 0;
 }
 /*image on the right*/
 .right-image {
@@ -290,7 +289,6 @@ hr {
     padding: 30px;
     text-align: right;
     margin: 0;
-    padding: 0;
 }
 /*hr hidden*/
 .hr-hidden {
