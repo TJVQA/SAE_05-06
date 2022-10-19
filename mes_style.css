@@ -228,6 +228,7 @@ hr {
     font-family:'Roboto', sans-serif;
     font-weight: 2;
     color: #0078B8;
+    background-color: gray;
     margin: 0;
 }
 /*text on the righ*/
@@ -252,6 +253,7 @@ hr {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     color: #0078B8;
+    background-color: gray;
     margin: 0;
 }
 /*image on the left*/
