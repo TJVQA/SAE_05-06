@@ -218,6 +218,19 @@ hr {
     margin: 0;
     padding: 0;
 }
+.left-text2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+    font-size: 2vw;
+    justify-content: start;
+    font-family:'Roboto', sans-serif;
+    font-weight: 2;
+    color: #0078B8;
+    margin: 0;
+    padding: 20;
+}
 /*text on the righ*/
 .right-text {
     float: right;
@@ -230,6 +243,18 @@ hr {
     color: #0078B8;
     margin: 0;
     padding: 0;
+}
+.right-text2 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    text-align: right;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #0078B8;
+    margin: 0;
+    padding: 20;
 }
 /*image on the left*/
 .left-image {
