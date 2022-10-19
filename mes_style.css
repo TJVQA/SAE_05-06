@@ -227,8 +227,8 @@ hr {
     justify-content: start;
     font-family:'Roboto', sans-serif;
     font-weight: 2;
-    color: #0078B8;
-    background-color: gray;
+    color: white;;
+    background-color: #0078B8;
     margin: 0;
     border-radius: 30px;
 }
@@ -253,8 +253,8 @@ hr {
     font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    color: #0078B8;
-    background-color: gray;
+    color: white;;
+    background-color: #0078B8;
     margin: 0;
     border-radius: 30px;
 }
@@ -275,7 +275,6 @@ hr {
     padding: 20px;
     text-align: left;
     margin: 0;
-    color: white;
     border-radius: 10px;
 }
 /*image on the right*/
@@ -295,7 +294,6 @@ hr {
     padding: 20px;
     text-align: right;
     margin: 0;
-    color: white;
     border-radius: 10px;
 }
 /*hr hidden*/
