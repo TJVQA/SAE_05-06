@@ -55,10 +55,12 @@ Victor Vieux-Melchior :
  - Création de la barre de navigation
  - rédaction d'une partie du rapport économique
  - Création d’un document attestant la réalisation des tests de validité sur le site W3C 
+ - ajout de l'écran de zoning et le wireframe définitif dans le github
  - Création du groupe.txt
  - recherches sur l'entreprise
  - création favicon.ico
  - réalisations des tests de validité sur le site W3C
+ 
 
 Johann Bitar :
  - Co création du Questionnaire n°1 avec Axel Joué
