@@ -1,4 +1,4 @@
-#Titre du projet : SAE S1.05-06
+# Titre du projet : SAE S1.05-06
 
 [Lien du site](https://tjvqa.github.io/SAE_05-06/)
 
@@ -19,7 +19,7 @@ Afin d’illustrer les propos ou tout simplement apporté de l’aération dans 
 Les noms de chaque pages dans le menu du haut-de- page permet une bonne visibilité et un accès facile aux différentes pages.
 
 
-##Réalisation des pages :
+## Réalisation des pages :
 
 [Page d'accueil(index)](https://tjvqa.github.io/SAE_05-06/index.html) réalisée par Victor Vieux-Melchior
 
@@ -32,9 +32,9 @@ Les noms de chaque pages dans le menu du haut-de- page permet une bonne visibili
 [Les Dirigeant et économie d'Ubisoft](https://tjvqa.github.io/SAE_05-06/Les%20Dirigeant%20et%20%C3%A9conomie%20d'Ubisoft.html) réalisée par Axel Joué
 
 
-##Répartition des tâches :
+## Répartition des tâches :
 
-###Théo Baumont : 
+### Théo Baumont : 
  - Envoie du sujet à M. Viezzi
  - Envoie des Membres du groupe et nom de la personne référente du groupe
  - Création de 2 écran de zoning et de 2 wireframe (menu et page)
@@ -45,7 +45,7 @@ Les noms de chaque pages dans le menu du haut-de- page permet une bonne visibili
  - Création logo
  - Réalisations des tests de validité sur le site W3C
 
-###Victor Vieux-Melchior : 
+### Victor Vieux-Melchior : 
  - Pas de création de compte github car compte déjà existant
  - Création d'une entreprise (compte github commun)
  - Création du repositorie 
@@ -62,7 +62,7 @@ Les noms de chaque pages dans le menu du haut-de- page permet une bonne visibili
  - Création favicon.ico
  - Réalisations des tests de validité sur le site W3C
  
-###Johann Bitar :
+### Johann Bitar :
  - Co création du Questionnaire n°1 avec Axel Joué
  - Co création du planning prévisionnel avec Quentin Sauner 
  - Rédation de 2 écran de zoning et de 2 wireframe (menu et page)
@@ -78,7 +78,7 @@ Les noms de chaque pages dans le menu du haut-de- page permet une bonne visibili
  - Création d'un google doc pour le planning
  - Réalisations des tests de validité sur le site W3C
 
-###Quentin Sauner :
+### Quentin Sauner :
  - Co création du planning prévisionnel avec Johann Bitar
  - Création de 2 écran de zoning et de 2 wireframe (menu et page)
  - Rédaction d'une partie du rapport économique
@@ -87,7 +87,7 @@ Les noms de chaque pages dans le menu du haut-de- page permet une bonne visibili
  - Création d'un compte github
  - Réalisations des tests de validité sur le site W3C
 
-###Axel Joué :
+### Axel Joué :
  - Co création du Questionnaire n°1 avec Johann Bitar
  - Création de 2 écran de zoning et de 2 wireframe (menu et page)
  - Co création du Questionnaire n°2 avec Johann Bitar
@@ -98,7 +98,7 @@ Les noms de chaque pages dans le menu du haut-de- page permet une bonne visibili
  - Création d'un compte github
  - Réalisations des tests de validité sur le site W3C
 
-##Réalisation écran de zoning et wireframe :
+## Réalisation écran de zoning et wireframe :
 tout le monde à réalisé un écran de zoning et un wireframe
 puis 2 écran de zoning (avec leur wireframe respectifs) ont été choisis par le client
 
