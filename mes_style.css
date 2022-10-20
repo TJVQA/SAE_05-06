@@ -617,7 +617,7 @@ footer .footer2 {
 }
 
 .ligne_Theo {
-    height: 1000px;
+    height: 1308px;
     width: 8px;
     margin: 0 auto;
     background: #333;
@@ -683,18 +683,6 @@ footer .footer2 {
     line-height: 20px;
     font-size: 18px;
     margin: 10px 0 20px 0;
-}
-
-.btn_theo {
-    display: block;
-    background: midnightblue;
-    padding: 10px;
-    width: 120px;
-    text-align: center;
-    color: #f1f1f1;
-    text-decoration: none;
-    border-radius: 3px;
-    margin-top: 10px;
 }
 
 
