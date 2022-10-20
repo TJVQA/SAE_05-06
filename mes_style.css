@@ -582,12 +582,32 @@ footer .footer2 {
     align-items: center;
     width: 100%;
     height: auto;
-    min-height: 10vh;
-    background: black;
+    min-height: auto;
+    background: #007198;
     background-size: 100%;
     opacity: 1;
 }
 
+.studio{
+    margin-left: 30%;
+}
+
+.image_corner{
+    border-radius: 20%;
+}
+.text_info {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+    font-size: 2vw;
+    justify-content: start;
+    font-family:'Roboto', sans-serif;
+    font-weight: 2;
+    color: #0078B8;
+    margin: 0;
+    padding: 0;
+}
 .continent {
     font-size: 2vw;
     font-family: 'Roboto', sans-serif;
