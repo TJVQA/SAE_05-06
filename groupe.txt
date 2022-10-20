@@ -1,6 +1,0 @@
-Groupe numéro : 21
-
-Etudiant 1 (référent du groupe)   nom :  Théo Baumont  -   email : theo.baumont@edu.univ-fcomte.fr
- 
-URL du site **github page** : https://tjvqa.github.io/SAE_05-06/
-URL du projet **github** : https://github.com/TJVQA/SAE_05-06.github.io
