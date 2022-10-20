@@ -87,7 +87,7 @@
 /*en savoir plus*/
 .en-savoir-plus {
     color: #93E1F0;
-    font-size: calc(1+1920px/1920*3px + 1vw);
+    font-size: 3vw;
     font-weight: normal;
     text-transform: none;
     position: absolute;
