@@ -258,6 +258,18 @@ hr {
     margin: 0;
     border-radius: 30px;
 }
+/*text on the center*/
+.center-text {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #0078B8;
+    margin: 0;
+    padding: 0;
+}
 /*image on the left*/
 .left-image {
     float: left;
