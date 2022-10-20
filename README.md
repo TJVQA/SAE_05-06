@@ -35,65 +35,69 @@ Réalisation des pages :
 Répartition des tâches :
 
 Théo Baumont : 
- - envoie du sujet à M. Viezzi
- - envoie des Membres du groupe et nom de la personne référente du groupe
- - création de 2 écrans de zonning (menu et page)
- - rédaction d'une partie du rapport économique
- - création de la page : "l'histoire d'Ubisoft"
- - recherches sur l'entreprise
- - création d'un compte github
- - création logo
- - réalisations des tests de validité sur le site W3C
+ - Envoie du sujet à M. Viezzi
+ - Envoie des Membres du groupe et nom de la personne référente du groupe
+ - Création de 2 écran de zoning et de 2 wireframe (menu et page)
+ - Rédaction d'une partie du rapport économique
+ - Création de la page : "l'histoire d'Ubisoft"
+ - Recherches sur l'entreprise
+ - Création d'un compte github
+ - Création logo
+ - Réalisations des tests de validité sur le site W3C
 
 Victor Vieux-Melchior : 
- - j'avais déjà un compte github
- - création d'une entreprise (compte github commun)
- - création du repositorie 
- - création de 2 écrans de zonning (menu et page)
+ - Pas de création de compte github car compte déjà existant
+ - Création d'une entreprise (compte github commun)
+ - Création du repositorie 
+ - Création de 2 écran de zoning et de 2 wireframe (menu et page)
+ - Création du prototype du site
  - Création et mise à jour du README.md
  - Création de la page d'accueil (index.html)
  - Création de la barre de navigation
- - rédaction d'une partie du rapport économique
+ - Rédaction d'une partie du rapport économique
  - Création d’un document attestant la réalisation des tests de validité sur le site W3C 
- - ajout de l'écran de zoning et le wireframe définitif dans le github
+ - Ajout de l'écran de zoning et le wireframe définitif dans le github
  - Création du groupe.txt
- - recherches sur l'entreprise
- - création favicon.ico
- - réalisations des tests de validité sur le site W3C
+ - Recherches sur l'entreprise
+ - Création favicon.ico
+ - Réalisations des tests de validité sur le site W3C
+ 
  
 
 Johann Bitar :
  - Co création du Questionnaire n°1 avec Axel Joué
  - Co création du planning prévisionnel avec Quentin Sauner 
- - création de 2 écrans de zonning (menu et page)
+ - Rédation de 2 écran de zoning et de 2 wireframe (menu et page)
  - Co création du Questionnaire n°2 avec Axel Joué
- - rendu du Questionnaire n°1
- - rendu du Questionnaire n°2
- - rédaction d'une partie du rapport économique
- - recherches sur l'entreprise
- - création de la page : "les jeux d'Ubisoft"
- - création d'un compte github
- - création du slogan
- - prise de contact avec UBISOFT
- - création d'un google doc pour le planning
- - réalisations des tests de validité sur le site W3C
+ - Rendu du Questionnaire n°1
+ - Rendu du Questionnaire n°2
+ - Rédaction d'une partie du rapport économique
+ - Recherches sur l'entreprise
+ - Création de la page : "les jeux d'Ubisoft"
+ - Création d'un compte github
+ - Création du slogan
+ - Prise de contact avec UBISOFT
+ - Création d'un google doc pour le planning
+ - Réalisations des tests de validité sur le site W3C
 
 Quentin Sauner :
  - Co création du planning prévisionnel avec Johann Bitar
- - création de 2 écrans de zonning (menu et page)
- - rédaction d'une partie du rapport économique
- - recherches sur l'entreprise
- - création de la page : "les studios d'Ubisoft"
- - création d'un compte github
- - réalisations des tests de validité sur le site W3C
+ - Création de 2 écran de zoning et de 2 wireframe (menu et page)
+ - Rédaction d'une partie du rapport économique
+ - Recherches sur l'entreprise
+ - Création de la page : "les studios d'Ubisoft"
+ - Création d'un compte github
+ - Réalisations des tests de validité sur le site W3C
 
 Axel Joué :
  - Co création du Questionnaire n°1 avec Johann Bitar
- - création de 2 écrans de zonning (menu et page)
+ - Création de 2 écran de zoning et de 2 wireframe (menu et page)
  - Co création du Questionnaire n°2 avec Johann Bitar
- - mise en page du rapport économique
- - rédaction d'une partie du rapport économique
- - recherches sur l'entreprise
- - création de la page : "les dirigeants et économie d'Ubisoft"
- - création d'un compte github
- - réalisations des tests de validité sur le site W3C
+ - Mise en page du rapport économique
+ - Rédaction d'une partie du rapport économique
+ - Recherches sur l'entreprise
+ - Création de la page : "les dirigeants et économie d'Ubisoft"
+ - Création d'un compte github
+ - Réalisations des tests de validité sur le site W3C
+
+[Lien vers les tests de validation du site W3C](doc/w3c.pdf)
