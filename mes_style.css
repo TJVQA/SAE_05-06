@@ -262,7 +262,7 @@ hr {
 .center-text {
     width: 50%;
     padding: 100px;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
