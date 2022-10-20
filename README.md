@@ -62,8 +62,6 @@ Victor Vieux-Melchior :
  - Création favicon.ico
  - Réalisations des tests de validité sur le site W3C
  
- 
-
 Johann Bitar :
  - Co création du Questionnaire n°1 avec Axel Joué
  - Co création du planning prévisionnel avec Quentin Sauner 
@@ -99,5 +97,11 @@ Axel Joué :
  - Création de la page : "les dirigeants et économie d'Ubisoft"
  - Création d'un compte github
  - Réalisations des tests de validité sur le site W3C
+
+Réalisation écran de zoning et wireframe :
+tout le monde à réalisé un écran de zoning et un wireframe
+puis 2 écran de zoning (avec leur wireframe respectifs) ont été choisis par le client
+
+
 
 [Lien vers les tests de validation du site W3C](doc/w3c.pdf)
