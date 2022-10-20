@@ -108,4 +108,4 @@ puis 2 écran de zoning (avec leur wireframe respectifs) ont été choisis par l
 
 [Lien vers les tests de validation du site W3C](doc/w3c.pdf)
 
-<a href="https://github.com/TJVQA/SAE_05-06/raw/main/doc/Livrable_%C3%89conomie_et_Documents_num%C3%A9rique/Th%C3%A9oBaumont_SAES156_groupe21_UBISOFT.zip)">télécharger le rapport économique au format zip</a>
+[télécharger le rapport économique au format zip](doc/Livrable_Économie_et_Documents_numérique/ThéoBaumont_SAES156_groupe21_UBISOFT.zip)
