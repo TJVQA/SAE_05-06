@@ -415,13 +415,16 @@ hr {
 
 /*fin CSS de Victor*/
 
+/*Début CSS de Johann*/
 
 h4 {
   background-color: #007198;
 }
 
-h5 {
+.fondRond{
   background-color: #051C24;
+  height: 50px;
+
 }
 
 
@@ -437,7 +440,9 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
+
 /* Rond du js */
+
 .rond {
   height: 15px;
   width: 15px;
@@ -488,6 +493,8 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
+/* FIN des Rond du js */
+
 .active {
   background-color: #545454;
 }
@@ -503,7 +510,7 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
+/* Responsive */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
