@@ -588,12 +588,20 @@ footer .footer2 {
     opacity: 1;
 }
 
+.txtl{
+    margin-left: 2%;
+}
+
+.txtr{
+    margin-right: 2%;
+}
+
 .studiol{
-    margin-left: 30%;
+    margin-left: 28%;
 }
 
 .studior{
-    margin-right: 30%;
+    margin-right: 28%;
 }
 
 
@@ -622,6 +630,7 @@ footer .footer2 {
     margin: 0;
     padding: 0;
 }
+
 
 /* fin CSS Quentin*/
 
