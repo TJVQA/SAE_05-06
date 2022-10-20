@@ -106,6 +106,6 @@ tout le monde à réalisé un écran de zoning et un wireframe
 puis 2 écran de zoning (avec leur wireframe respectifs) ont été choisis par le client
 
 
-[Lien vers les tests de validation du site W3C](doc/w3c.pdf)
-
-[télécharger le rapport économique au format zip](doc/Livrable_Économie_et_Documents_numérique/ThéoBaumont_SAES156_groupe21_UBISOFT.zip)
+# [Lien vers les tests de validation du site W3C](doc/w3c.pdf)
+ 
+# [télécharger le rapport économique au format zip](doc/Livrable_Économie_et_Documents_numérique/ThéoBaumont_SAES156_groupe21_UBISOFT.zip)
