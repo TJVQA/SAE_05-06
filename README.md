@@ -57,6 +57,7 @@ Les noms de chaque pages dans le menu du haut-de- page permet une bonne visibili
  - Rédaction d'une partie du rapport économique
  - Création d’un document attestant la réalisation des tests de validité sur le site W3C 
  - Ajout de l'écran de zoning et le wireframe définitif dans le github
+ - création du bouton de téléchargement du rapport économique
  - Création du groupe.txt
  - Recherches sur l'entreprise
  - Création favicon.ico
@@ -106,3 +107,5 @@ puis 2 écran de zoning (avec leur wireframe respectifs) ont été choisis par l
 
 
 [Lien vers les tests de validation du site W3C](doc/w3c.pdf)
+
+[télécharger le rapport économique au format zip](doc/Livrable_Économie_et_Documents_numérique/ThéoBaumont_SAES156_groupe21_UBISOFT.zip)
