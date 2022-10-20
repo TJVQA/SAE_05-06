@@ -100,13 +100,12 @@
     background-color: #93E1F0;
     border: none;
     color: white;
-    padding: 1vh 3vw;
-    align-items :center;
+    padding: 50%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1vw;
-    margin: 2vw 1VH;
+    /*margin: 2vw 1VH;*/
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 50px;
