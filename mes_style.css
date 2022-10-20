@@ -101,6 +101,7 @@
     border: none;
     color: white;
     padding: 1vh 3vw;
+    align-items :center;
     text-align: center;
     text-decoration: none;
     display: inline-block;
