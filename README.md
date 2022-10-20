@@ -70,8 +70,10 @@ Les noms de chaque pages dans le menu du haut-de- page permet une bonne visibili
  - Rendu du Questionnaire n°1
  - Rendu du Questionnaire n°2
  - Rédaction d'une partie du rapport économique
+ - Rédaction introduction du rapport économique
  - Recherches sur l'entreprise
  - Création de la page : "les jeux d'Ubisoft"
+ - Création du pied de page
  - Création d'un compte github
  - Création du slogan
  - Prise de contact avec UBISOFT
